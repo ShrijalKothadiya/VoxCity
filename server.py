@@ -78,4 +78,8 @@ def confirm_and_publish(draft_id: str) -> str:
         return f"Error: {str(e)}"
 
 if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", 8000))
+    mcp.settings.port = port
+    mcp.settings.host = "0.0.0.0"
     mcp.run(transport="streamable-http")
