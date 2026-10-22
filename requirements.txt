@@ -2,3 +2,4 @@ mcp[cli]
 requests
 streamlit
 SpeechRecognition
+pyaudio

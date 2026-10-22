@@ -1,0 +1,11 @@
+{
+  "surat-dentist": {
+    "name": "Surat Smiles Dental",
+    "opening_time": "11:00 AM",
+    "services": [
+      "Teeth Cleaning",
+      "Root Canal"
+    ],
+    "contact": "555-0199"
+  }
+}
